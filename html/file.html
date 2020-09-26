@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<!-- <body>
+<body>
     komentarz - widoczny z dev tools, niewidoczny na stronie skrót ctrl + / -->
 
 <a href="https://google.com" target="_blank">google</a>
@@ -44,6 +44,12 @@
             <td>1000 Yen</td>
         </tr>
     </tbody>
+    <tbody>
+        <tr>
+            <td>winogrona</td>
+            <td>2700 Yen</td>
+        </tr>
+    </tbody>
 
 </table>
 
@@ -60,26 +66,32 @@
 <input type="number" placeholder="age">
 
 <label for="agreement">Wyrażam zgodę</label>
-<input type="checkbox" name="agreement" id="agreement">+<br>
+<input type="checkbox" name="agreement" id="agreement">
 
-<p>type="gender">Wybierz Płeć</p>
+<br><p>type="gender">Wybierz Płeć</p>
 <label for=""></label><input type="radio" name="gender">Mężczyzna
 <label for=""></label><input type="radio" name="gender">Kobieta
 
-<textarea maxlength="100" name="msg" id="msg"></textarea>
+<textarea maxlength="100" name="msg" id="msg"></textarea placeholder="notes">
 
 <label for="city">wybierz miasto</label>
 <select name="city" id="city">
-    <option value="cracow"></option>Kraków
-    <option value="warsaw"></option>Warszawa
-    <option value="stetin"></option>Szczecin
+    <option name="cracow"></option>
+    <option name="warsaw"></option>
+    <option name="stetin"></option>
 </select>
 
 <input type="submit" value="wyślij">
 
+<iframe src="https://www.google.com/maps/@50.0473559,19.9276365,14z" frameborder="0"></iframe>
 
 
-
+<svg style="height:100px;">
+    <path d="M30.148 5.588c 2.934 3.42 7.288 5.588 12.148 5.588 8.837 0 16 7.163 16
+16s7.163 16 16 16c4.86 0 9.213 2.167 12.148 5.588l 10.148 10.412 10.148
+10.412zM22 3.769c1.232 0 2.231 0.999 2.231 2.231s 0.999 2.231 2.231 2.231 2.231
+    0.999 2.231 2.231c0 1.232 0.999 2.231 2.231 2.231z"></path>
+</svg>
 
 <div>Kontakt: 503 819 969</div>
 </body>
