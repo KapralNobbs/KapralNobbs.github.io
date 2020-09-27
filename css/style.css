@@ -1,0 +1,43 @@
+*{color: red}
+
+p{color: green;}
+
+.selectors {background-color: gray;}
+
+#main-tiltle {font-size: 40px;}
+
+div.child {background-color: yellow;}
+
+.child p {font-size: 20px;}
+
+.child>p {font-size: 20px;}
+
+.child ~ .sibling { background-color: purple;}
+
+.child + .sibling {background-color: royalblue;}
+
+.child p::before {content:"Start"; color:#444;}
+
+.child p::after {content: "Koniec";}
+
+ul :first-child a {color: brown;}
+
+ul li:first-of-type a {color: blue;}
+
+[title] {border: 10px solid green}
+
+[title="to jest pierwszy input"] {border: 10px solid gray}
+
+[title~="drugi" ] {border: 10px solid blue;}
+
+input[title*="To"] {border: 10px solid gray}
+
+.selectors {background-color: yellow;}
+
+#selectors {background-color: salmon;}
+
+
+
+
+
+
