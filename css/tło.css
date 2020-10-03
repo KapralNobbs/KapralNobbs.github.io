@@ -1,0 +1,16 @@
+.background {
+    height: 400px;
+    /* background-color: ; */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://a.allegroimg.com/s1024/0ca613/b660f3ca4081912486088acd70c1);    
+    /* transition: .4s; */
+    background-repeat: no-repeat;
+}
+
+
+.background:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://a.allegroimg.com/s1024/0ca613/b660f3ca4081912486088acd70c1);    
+
+}
+
+
+
