@@ -1,0 +1,20 @@
+.overflow {
+    height: 200px;
+    width: 150px;
+    border: 1px dashed #000;
+    box-sizing: border-box;
+
+
+}
+
+@media all and (max-width: 1366px) {
+    .overflow {
+        background-color: red ;
+    }
+}
+
+@media all and (max-width: 992px) {
+    .overflow {
+        background-color: green ;
+    }
+}

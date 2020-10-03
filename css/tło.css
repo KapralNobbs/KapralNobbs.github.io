@@ -1,9 +1,14 @@
 .background {
-    height: 400px;
+    height: 1000px;
     /* background-color: ; */
     background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url(https://a.allegroimg.com/s1024/0ca613/b660f3ca4081912486088acd70c1);    
     /* transition: .4s; */
     background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
+    background-attachment: fixed;
+    /* background: url(https://a.allegroimg.com/s1024/0ca613/b660f3ca4081912486088acd70c1) no-repeat center; */
+
 }
 
 

@@ -1,0 +1,31 @@
+.flex-container {
+    display: flex;
+    /* ważne */
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* domyślnie wyświetla w lini, jeśli nie ma flex-wrap: wrap; */
+    align-items: center; /* domyślnie wyświetla elementy w lini */
+    align-content: center;
+    height: 500px;
+    justify-content: space-between;
+
+
+}
+
+
+.flex-item {
+    flex-basis: 17%;
+    height: 200px;
+    background-color: royalblue;
+
+}
+
+.flex-item:nth-of-type(3) {
+    align-self: flex-start; /* nie działa przy align content */
+
+    flex-shrink: 2;
+}
+
+.flex-item:first-of-type{
+    order: 1;
+}

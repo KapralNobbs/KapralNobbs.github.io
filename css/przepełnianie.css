@@ -1,0 +1,22 @@
+*{
+    box-sizing:  border-box;
+}
+
+
+
+.overflow {
+    border: 1px dashed #000;
+    height:  100px;
+    width: 200px;
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
